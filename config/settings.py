@@ -24,7 +24,15 @@ SECRET_KEY = 'o+ha8c4h_i#11v*fs)9tj5!!9!_sfx($3bk!x)lfvma$%hns+i'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# 모든 주소에 대하여 허용하려면 다음과 같이 작성합니다.
+ALLOWED_HOSTS = ['*']
+
+# ALLOWED_HOSTS = [
+#     '121.162.59.125',
+#     'localhost',
+#     '127.0.0.1',
+# ]
+
 
 # Application definition
 
